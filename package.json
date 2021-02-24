@@ -1,0 +1,16 @@
+{
+  "name": "trello-pagerduty",
+  "version": "1.0.0",
+  "description": "Create pagerduty incidents for Trello cards when they're past due",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app"
+  },
+  "author": "Travis Brackett",
+  "license": "MIT",
+  "dependencies": {
+    "@pagerduty/pdjs": "^2.2.0",
+    "dotenv": "^8.2.0",
+    "trello": "^0.10.0"
+  }
+}
