@@ -4,7 +4,8 @@
   "description": "Create pagerduty incidents for Trello cards when they're past due",
   "main": "app.js",
   "scripts": {
-    "start": "node ./app"
+    "start": "node ./index",
+    "create_pagerduty_events_from_overdue_trello_cards": "node ./create_pagerduty_events_from_overdue_trello_cards"
   },
   "author": "Travis Brackett",
   "license": "MIT",
